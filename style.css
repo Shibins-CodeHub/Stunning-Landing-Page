@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    margin-bottom: 70px;
+    font-family: 'Sora', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.logo{
+    width: 15%;
+    margin-right: 30px;
+}
+.nav{
+    width: 50%;
+}
+.logo img{
+    height: 40px;
+}
+#nav-items{
+    margin-left: 50px;
+    text-decoration: none;
+    color: rgb(153, 154, 155);
+    padding-bottom: 3px;
+    font-size: 15px;
+}
+#nav-items:hover{
+    color:  black;
+    border-bottom: 3px  #8071D0 solid;
+}
+#button-1{
+    padding:20px 30px;
+    margin-top: 3%;
+    width:10%;
+    background-color: #FFD8DB;
+    border: 0px;
+    border-radius: 20px;
+    color:  #A389CC;
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+.main{
+    margin-top: 30px;
+    display: flex;
+}
+#left-content{
+    width: 40%;
+}
+#right-content{
+    width: 60%;
+}
+#content{
+    margin: 20px auto 0px;
+    padding-left: 130px;
+}
+h1{
+    font-size: 60px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+p{
+     font-size: 18px;
+     color: rgba(0, 0, 0, .6);
+}
+#middle-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+#new-account{
+    padding:20px 40px;
+    background-color:rgb(118, 5, 231);
+    border: 0px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-right: 30px;
+    cursor: pointer;
+}
+#up{
+    margin-right: 5px;
+}
+.list{
+    margin-top: 80px;
+    width: 95%;
+}
+#list-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(244, 244, 244);
+    padding: 0px 30px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+#button-pink{
+    background-color: #FED7DA;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 0px;
+}
+#button-orange{
+    background-color:  #FD6534;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 0px;
+}
+#button-blue{
+    background-color: #9ED095;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 0px; 
+}
+#button-red{
+    background-color:  #FFE4A0;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 0px;
+}
+#topic{
+    width: 150px;
+    font-size: 17px;
+    font-weight: 600;
+}
+#date{
+    color: rgb(143, 157, 171);
+    font-size: 15px;
+}
+#list-content:hover{
+    background-color: white;
+    box-shadow: 3px 3px 15px rgb(194, 191, 191), -3px -3px 15px rgb(194, 191, 191);
+    cursor: pointer;
+    background-image: url(./images/tick-blue.png);
+    background-repeat: no-repeat;
+    background-position: 30px 14px;
+    #tick{
+        visibility: hidden;
+        }
+}
+#landing-img{
+    margin-top: 40px;
+    padding-left: 60px;
+    width: 90%;
+    height: 80%;
+}
